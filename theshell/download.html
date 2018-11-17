@@ -267,7 +267,7 @@ projectIcon: /images/theshell.png
                             <code style="padding: 9px; border: 1px solid var(--fg-color); display: block;">
                                 [theapps]<br />
                                 SigLevel = Optional TrustAll<br />
-                                Server = https://vicr123.github.io/repo/arch/$arch/<br />
+                                Server = https://packages.vicr123.com/arch/$arch/<br />
                             </code>
                         </li>
                         <li>
@@ -300,7 +300,7 @@ projectIcon: /images/theshell.png
                         <li>
                             Add signing keys to your system
                             <code class="hash">
-                                wget -O - https://vicr123.com/repo/apt/vicr12345.gpg.key | apt-key add -
+                                wget -O - https://packages.vicr123.com/apt/vicr12345.gpg.key | apt-key add -
                             </code>
                             <div class="info">
                                 You'll need to run a root shell before this step. Using <code>sudo</code> will not work.
@@ -309,7 +309,7 @@ projectIcon: /images/theshell.png
                         <li>
                             Add the theSuite repository to your system.<br />
                             <code class="hash">
-                                add-apt-repository 'deb https://vicr123.com/repo/apt/ubuntu bionic main'
+                                add-apt-repository 'deb https://packages.vicr123.com/apt/ubuntu bionic main'
                             </code>
                         </li>
                         <li>
