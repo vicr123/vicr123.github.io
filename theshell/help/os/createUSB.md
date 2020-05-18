@@ -7,7 +7,7 @@ projectIcon: /images/theshell.png
 
 To try or install theShell OS, a live USB may be a viable option. Running theShell OS off a USB flash drive is much faster than running it off optical media, like a DVD.
 
-# Preperation
+# Preparation
 
 Before you create a live USB, you'll need to check that your computer is able to boot off USB drives. Most modern computers and tablets can do this with no problem.
 
