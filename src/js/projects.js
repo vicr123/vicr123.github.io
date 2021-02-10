@@ -86,6 +86,7 @@ const features = [
                     <li>Unparalleled system integration</li>
                     <li>Cross platform</li>
                     <li>Lightning fast search</li>
+                    <li>Play, burn and import CDs</li>
                 </ul>
             </Container>
         </>
