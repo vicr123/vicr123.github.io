@@ -1,0 +1,83 @@
+@keyframes backgroundIn {
+    from {
+        backdrop-filter: blur(0px);
+    }
+    to {
+        backdrop-filter: blur(10px);
+    }
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    
+    background-color: var(--ifm-popover-color);
+    /* opacity: 50%; */
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+
+    animation: backgroundIn 0.25s ease-out;
+}
+
+@keyframes popoverIn {
+    from {
+        max-height: 0vh;
+    }
+    to {
+        max-height: 85vh;
+    }
+}
+
+.popover {
+    display: flex;
+    flex-direction: column;
+
+    border-top: 1px solid var(--ifm-toc-border-color);
+    background-color: var(--ifm-background-color);
+    max-height: 85vh;
+    padding-bottom: 9px;
+
+    animation: popoverIn 0.25s ease-out;
+}
+
+.popoverHeader {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+.popoverBackButton {
+    border: none;
+    background-color: var(--ifm-background-color);
+    width: 32px;
+    height: 40px;
+}
+
+.popoverBackButton:before {
+    content: url(/img/contemporary-icons/actions/16/go-previous.svg);
+    filter: var(--ifm-contemporary-icon-filter);
+}
+
+.popoverBackButton:hover {
+    background-color: var(--ifm-background-color-hover);
+}
+
+.popoverBackButton:active {
+    background-color: var(--ifm-background-color-active);
+}
+
+.popoverHeaderTitle {
+    font-size: 15pt;
+    flex-grow: 1;
+    padding-left: 6px;
+}
+
+.popoverContainer {
+    overflow-y: auto;
+}

@@ -1,0 +1,176 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@font-face {
+  font-family: 'Contemporary';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Contemporary'), local('Contemporary-Regular'), url('/typeface/Contemporary-Regular.ttf');
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: rgb(0, 100, 255);
+  --ifm-color-primary-dark: rgb(40, 40, 40);
+  --ifm-color-primary-darker: rgb(20, 20, 20);
+  --ifm-color-primary-darkest: rgb(0, 0, 0);
+  --ifm-color-primary-light: rgb(235, 235, 235);
+  --ifm-color-primary-lighter: rgb(255, 255, 255);
+  --ifm-color-primary-lightest: rgb(255, 255, 255);
+  --ifm-color-secondary: rgb(200, 200, 200);
+  --ifm-background-color: rgb(235, 235, 235);
+  --ifm-background-color-hover: rgb(255, 255, 255);
+  --ifm-background-color-active: rgb(215, 215, 215);
+  --ifm-popover-color: rgba(235, 235, 235, 0.75);
+  --ifm-menu-color-active: white;
+  --ifm-menu-color-background-active: rgb(0, 100, 255);
+  --ifm-menu-color-background-hover: rgba(0, 100, 255, 0.2);
+  --ifm-toc-border-color: black;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: var(--ifm-background-color);
+  --ifm-contemporary-icon-filter: none;
+  --ifm-button-background: rgb(0, 200, 255);
+  --ifm-button-background-hover: rgb(127, 228, 255);
+  --ifm-button-background-active: rgb(0, 133, 170);
+  --ifm-button-color: black;
+}
+
+html[data-theme="dark"] {
+  --ifm-color-primary: rgb(0, 200, 255);
+  --ifm-background-color: rgb(40, 40, 40);
+  --ifm-background-color-hover: rgb(60, 60, 60);
+  --ifm-background-color-active: rgb(20, 20, 20);
+  --ifm-popover-color: rgba(40, 40, 40, 0.75);
+  --ifm-menu-color-active: black;
+  --ifm-menu-color-background-active: rgb(0, 200, 255);
+  --ifm-menu-color-background-hover: rgba(0, 200, 255, 0.2);
+  --ifm-toc-border-color: white;
+  --ifm-contemporary-icon-filter: invert(1);
+  --ifm-button-background: rgb(0, 50, 150);
+  --ifm-button-background-hover: rgb(0, 75, 255);
+  --ifm-button-background-active: rgb(0, 33, 100);
+  --ifm-button-color: white;
+}
+
+html[data-theme="dark"] .admonition.alert--secondary {
+    --ifm-color-secondary: rgb(60, 60, 60);
+    --ifm-alert-color: white;
+    --ra-admonition-icon-color: white;
+}
+
+.markdown svg {
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+html[data-theme="dark"] .markdown :not(.admonition-icon) > svg {
+    filter: invert(1);
+}
+
+html, .button {
+    font-family: 'Contemporary';
+}
+
+h1, h2, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 12pt;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    box-shadow: none;
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.keycap {
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 5px;
+    font-size: 9pt;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-top: 1px solid var(--ifm-toc-border-color);
+    border-left: 1px solid var(--ifm-toc-border-color);
+    border-right: 1px solid var(--ifm-toc-border-color);
+    border-bottom: 3px solid var(--ifm-toc-border-color);
+    cursor: default;
+    user-select: none;
+}
+
+.keycap:first-child {
+    margin-left: 0px;
+}
+
+.keycap:active {
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+    margin-top: 3px;
+}
+
+.keycapContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inlineImage {
+    margin-bottom: var(--ifm-leading);
+}
+
+.alert--warning {
+    color: black;
+    --ra-admonition-icon-color: black;
+}
+
+.footer {
+    border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+hr {
+    height: 0px;
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+    border-top: none;
+    margin: 0px;
+}
+
+body.popoverOpen {
+    overflow: hidden !important;
+}
+
+.button {
+    border: none;
+    border-radius: 0px;
+    font-size: initial;
+    font-weight: initial;
+    padding: 6px;
+    background-color: var(--ifm-button-background);
+}
+
+.button:hover {
+    background-color: var(--ifm-button-background-hover);
+}
+
+.button:active {
+    background-color: var(--ifm-button-background-active);
+}
