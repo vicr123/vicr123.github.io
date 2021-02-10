@@ -57,10 +57,10 @@
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
-     inkscape:window-width="2560"
-     inkscape:window-height="1380"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="2560"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      fit-margin-top="0"
@@ -114,20 +114,19 @@
        inkscape:export-filename="/home/victor/newcontemporary.png"
        inkscape:export-xdpi="2165.5593"
        inkscape:export-ydpi="2165.5593" />
-    <text
-       id="text881-9-9-9"
-       y="323.2778"
-       x="114.0369"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.7574px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0898716"
-       xml:space="preserve"
+    <g
+       aria-label=":)"
        transform="matrix(0.96597545,0.25880576,-0.25883234,0.9658762,0,0)"
-       inkscape:export-filename="/home/victor/newcontemporary.png"
-       inkscape:export-xdpi="2165.5593"
-       inkscape:export-ydpi="2165.5593"><tspan
+       id="text881-9-9-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.7574px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0898716">
+      <path
+         d="m 116.10744,309.41673 q 0,-1.09278 0.51763,-1.52414 0.51763,-0.43136 1.23657,-0.43136 0.74769,0 1.26532,0.43136 0.54639,0.43136 0.54639,1.52414 0,1.03527 -0.54639,1.49539 -0.51763,0.46012 -1.26532,0.46012 -0.71894,0 -1.23657,-0.46012 -0.51763,-0.46012 -0.51763,-1.49539 z m 0,12.30817 q 0,-1.06402 0.51763,-1.49538 0.51763,-0.43136 1.23657,-0.43136 0.74769,0 1.26532,0.43136 0.54639,0.43136 0.54639,1.49538 0,1.03527 -0.54639,1.49539 -0.51763,0.46012 -1.26532,0.46012 -0.71894,0 -1.23657,-0.46012 -0.51763,-0.46012 -0.51763,-1.49539 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';stroke-width:0.0898716"
-         y="323.2778"
-         x="114.0369"
-         id="tspan879-5-7-0"
-         sodipodi:role="line">:)</tspan></text>
+         id="path1594" />
+      <path
+         d="m 129.2208,315.39827 q 0,3.47965 -1.03527,6.70048 -1.0065,3.19207 -3.19207,5.72272 h -2.3581 q 1.98426,-2.70319 2.99077,-5.89527 1.03526,-3.22083 1.03526,-6.55668 0,-3.42213 -1.03526,-6.67172 -1.00651,-3.24959 -3.01953,-5.95278 h 2.38686 q 2.18557,2.61692 3.19207,5.89526 1.03527,3.24959 1.03527,6.75799 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';stroke-width:0.0898716"
+         id="path1596" />
+    </g>
   </g>
 </svg>

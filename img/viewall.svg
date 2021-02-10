@@ -31,10 +31,10 @@
      inkscape:document-rotation="0"
      showgrid="true"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1044"
-     inkscape:window-x="2560"
-     inkscape:window-y="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1380"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -67,22 +67,22 @@
     <path
        id="rect839"
        style="opacity:1;fill:#0064ff;fill-opacity:1;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
-       d="M 6.0722656 0.38671875 C 2.6052902 1.2643055 0 4.2527295 0 8 L 0 24 C 0 28.432 3.5680002 32 8 32 L 12 32 L 6.0722656 0.38671875 z "
+       d="M 6.5761719 3.0722656 A 15.999999 15.999999 0 0 0 0 16 A 15.999999 15.999999 0 0 0 11.900391 31.464844 L 6.5761719 3.0722656 z "
        transform="scale(0.26458333)" />
     <path
        id="path938"
        style="opacity:1;fill:#006400;fill-opacity:1;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
-       d="M 22.050781 0 L 8 0 C 7.3152707 0 6.7057773 0.22635953 6.0722656 0.38671875 L 10.726562 25.207031 L 22.050781 0 z "
+       d="M 16 0 A 15.999999 15.999999 0 0 0 6.5761719 3.0722656 L 10.726562 25.207031 L 21.595703 1.0117188 A 15.999999 15.999999 0 0 0 16 0 z "
        transform="scale(0.26458333)" />
     <path
        id="path943"
        style="opacity:1;fill:#6464ff;fill-opacity:1;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
-       d="M 32 23.636719 L 13.482422 19.070312 L 10.726562 25.207031 L 12 32 L 24 32 C 28.432 32 32 28.432 32 24 L 32 23.636719 z "
+       d="M 13.482422 19.070312 L 10.726562 25.207031 L 11.900391 31.464844 A 15.999999 15.999999 0 0 0 16 32 A 15.999999 15.999999 0 0 0 30.28125 23.212891 L 13.482422 19.070312 z "
        transform="scale(0.26458333)" />
     <path
        id="path948"
        style="opacity:1;fill:#ff6400;fill-opacity:1;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
-       d="M 22.050781 0 L 13.482422 19.070312 L 32 23.636719 L 32 8 C 32 3.5680004 28.432 0 24 0 L 22.050781 0 z "
+       d="M 21.595703 1.0117188 L 13.482422 19.070312 L 30.28125 23.212891 A 15.999999 15.999999 0 0 0 32 16 A 15.999999 15.999999 0 0 0 21.595703 1.0117188 z "
        transform="scale(0.26458333)" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round"
