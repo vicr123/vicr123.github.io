@@ -43,7 +43,8 @@ const features = [
                     <h1 className="hero__title">Contemporary</h1>
                     <h2>Design Language</h2>
                     <div className={styles.buttonContainer}>
-                        <a href="https://github.com/vicr123/thedesk"><button className="button">GitHub</button></a>
+                        <a href="https://github.com/vicr123/contemporary-theme"><button className="button">Qt theme on GitHub</button></a>
+                        <a href="https://github.com/vicr123/contemporary-icons"><button className="button">Icons on GitHub</button></a>
                         <a href="/typeface/contemporary.zip"><button className="button">Download the font</button></a>
                     </div>
             </Container>
