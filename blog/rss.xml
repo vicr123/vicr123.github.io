@@ -4,10 +4,17 @@
         <title>Victor Tran Blog</title>
         <link>https://vicr123.com/blog</link>
         <description>Victor Tran Blog</description>
-        <lastBuildDate>Thu, 11 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © Victor Tran 2021. Text available under CC-BY-SA, v4.0 or later.</copyright>
+        <item>
+            <title><![CDATA[The future of theShell and theDesk]]></title>
+            <link>https://vicr123.com/blog/2021/04/01/thedellx</link>
+            <guid>The future of theShell and theDesk</guid>
+            <pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hey folks,]]></description>
+        </item>
         <item>
             <title><![CDATA[New Website]]></title>
             <link>https://vicr123.com/blog/2021/02/11/new-site</link>
