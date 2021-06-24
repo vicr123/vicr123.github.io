@@ -1,9 +1,9 @@
 ---
 title: "tsscreenlock 2.3"
-date:   2018-06-06 22:00:00 +1000
+date:   2018-06-06
 tags: [miscellaneous]
 author: Victor Tran
-author_image_url: /img/blog-vt.svg
+author_image_url: https://vicr123.com/img/blog-vt.svg
 ---
 
 Hey everyone,

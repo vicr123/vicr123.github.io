@@ -1,9 +1,9 @@
 ---
 title: "theSlate Public Preview"
-date:   2018-08-06 22:00:00 +1000
+date:   2018-08-06
 tags: [theslate]
 author: Victor Tran
-author_image_url: /img/blog-vt.svg
+author_image_url: https://vicr123.com/img/blog-vt.svg
 ---
 
 Hey everyone,
