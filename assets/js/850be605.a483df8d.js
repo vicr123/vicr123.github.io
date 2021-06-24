@@ -1,0 +1,1 @@
+(self.webpackChunkmain_site_21=self.webpackChunkmain_site_21||[]).push([[961],{7462:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"thebeat","name":"thebeat","count":1,"permalink":"/blog/tags/thebeat"}')}}]);
