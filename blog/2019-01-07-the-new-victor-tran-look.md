@@ -1,9 +1,9 @@
 ---
 title: "The New Victor Tran look"
-date:   2019-01-07
+date:   2019-01-07 03:25:00 +1000
 tags: [brand]
 author: Victor Tran
-author_image_url: https://vicr123.com/img/blog-vt.svg
+author_image_url: /img/blog-vt.svg
 ---
 
 Hey everyone,

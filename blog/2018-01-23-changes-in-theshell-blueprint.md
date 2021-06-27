@@ -1,9 +1,9 @@
 ---
 title: "Changes in theShell Blueprint"
-date:   2018-01-23
+date:   2018-01-23 14:00:00 +1100
 tags: [theshell,blueprint]
 author: Victor Tran
-author_image_url: https://vicr123.com/img/blog-vt.svg
+author_image_url: /img/blog-vt.svg
 ---
 
 Hey everyone,
