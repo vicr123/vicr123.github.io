@@ -10,7 +10,7 @@ Open the [Flatpak repository file](/flatpak-assets/vicr123-stable.flatpakrepo) w
 
 Install the Flatpak repository with the following command:
 ```bash
-flatpak remote-add vicr123-blueprint https://vicr123.com/flatpak-assets/vicr123-stable.flatpakrepo
+flatpak remote-add vicr123 https://vicr123.com/flatpak-assets/vicr123-stable.flatpakrepo
 ```
 
 ### Blueprint
