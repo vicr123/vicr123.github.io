@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmain_site_21=self.webpackChunkmain_site_21||[]).push([[724],{8770:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/blueprint","name":"blueprint","count":1,"permalink":"/blog/tags/blueprint"}')}}]);
