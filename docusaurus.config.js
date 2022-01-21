@@ -20,7 +20,16 @@ module.exports = {
           to: 'projects',
           label: 'Projects'
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'blog',
+          label: 'Blog',
+          position: 'left'
+        },
+        {
+          to: 'community-backgrounds',
+          label: 'Community Backgrounds',
+          position: 'left'
+        },
         {
           href: 'https://github.com/vicr123',
           label: 'GitHub',

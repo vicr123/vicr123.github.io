@@ -1,0 +1,22 @@
+.Root {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "search-box"
+    ".";
+
+    margin-bottom: 20px;
+}
+
+.SearchBox {
+    grid-area: search-box;
+    padding: 9px;
+    border: none;
+    background: none;
+    margin-bottom: 20px;
+    /*position: sticky;*/
+    /*top: 50px;*/
+}

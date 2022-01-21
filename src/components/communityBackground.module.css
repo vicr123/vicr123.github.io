@@ -1,0 +1,97 @@
+.Root {
+    height: 200px;
+
+    display: grid;
+    cursor: pointer;
+
+    transition: height 0.25s ease-out;
+}
+
+.Root:hover {
+    height: 400px;
+}
+
+.Scrim {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    opacity: 0;
+
+    transition: background-color 0.25s ease-out, opacity 0.25s ease-out;
+
+    padding: 9px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Root:hover .Scrim {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.FullScreenRoot {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    backdrop-filter: blur(10px);
+
+    display: none;
+    opacity: 0;
+
+    flex-direction: column;
+    justify-content: flex-end;
+
+    transition: opacity 0.5s ease-out;
+
+    cursor: default;
+
+    z-index: 1000;
+}
+
+.FullScreenRoot.Active {
+    display: flex;
+    opacity: 1;
+}
+
+.FsImage {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+    flex-grow: 1;
+}
+
+.FsMeta {
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    grid-template-rows: max-content max-content max-content;
+    gap: 0px 0px;
+    grid-template-areas:
+        "title download-button"
+        "author download-button"
+        "copyright-information download-button";
+}
+
+.FsTitle {
+    grid-area: title;
+}
+
+.FsAuthor {
+    grid-area: author;
+}
+
+.FsCopyright {
+    grid-area: copyright-information;
+}
+
+.FsDownload {
+    grid-area: download-button;
+}
