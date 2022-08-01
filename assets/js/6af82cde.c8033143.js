@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmain_site_21=self.webpackChunkmain_site_21||[]).push([[8724],{8770:e=>{e.exports=JSON.parse('{"label":"blueprint","permalink":"/blog/tags/blueprint","allTagsPath":"/blog/tags","count":1}')}}]);

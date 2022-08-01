@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmain_site_21=self.webpackChunkmain_site_21||[]).push([[18],{7989:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/thedesk","name":"thedesk","count":1,"permalink":"/blog/tags/thedesk"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmain_site_21=self.webpackChunkmain_site_21||[]).push([[2672],{6691:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/miscellaneous","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

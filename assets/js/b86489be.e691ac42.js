@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmain_site_21=self.webpackChunkmain_site_21||[]).push([[497],{5521:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/theslate","name":"theslate","count":1,"permalink":"/blog/tags/theslate"}')}}]);

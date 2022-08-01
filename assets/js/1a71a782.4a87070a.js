@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmain_site_21=self.webpackChunkmain_site_21||[]).push([[4017],{7800:e=>{e.exports=JSON.parse('{"label":"thesafe","permalink":"/blog/tags/thesafe","allTagsPath":"/blog/tags","count":1}')}}]);

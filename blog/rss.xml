@@ -7,6 +7,7 @@
         <lastBuildDate>Thu, 01 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
         <copyright>Copyright © Victor Tran 2022. Text available under CC-BY-SA, v4.0 or later.</copyright>
         <item>
             <title><![CDATA[The future of theShell and theDesk]]></title>
@@ -14,13 +15,15 @@
             <guid>/2021/04/01/thedellx</guid>
             <pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[EDIT: April Fools!]]></description>
-            <content:encoded><![CDATA[<img src="/blogAssets/thedellx-logo.png" width="100%" style="border-radius:10px"/><p><strong>EDIT: April Fools!</strong></p><p>Hey folks,</p><p>I know most of you have been looking forward to theDesk. I also know most of you have fond memories of theShell. I am happy to announce that I&#x27;ve been able to merge the codebases of theDesk and theShell into one cohesive desktop environment. Say hello to <strong>theDell X</strong>.</p><p><strong>DUO EVERYTHING</strong><br/>
-Why have one bar when you can have the power of both the bar from theShell and the bar from theDesk? With both bars at your disposal, you&#x27;ll never have to move your mouse more than half your screen height vertically to get to any system actions.</p><p><strong>BONKERS NO MORE</strong><br/>
-If theShell or theDesk crashes, you won&#x27;t be kicked to the Bonkers screen any more! Simply keep using the half of the desktop that is currently running. Stability is unparalleled when you have theDell X running. It&#x27;s as if you&#x27;re using just theDesk or just theShell, except it&#x27;s random each time!</p><p><strong>IMPORTANT NOTE</strong><br/>
-NOTE: Unfortunately, with the codebase merge, I&#x27;ve had to drop support for non-Dell devices. I&#x27;ll be working hard to get support back in, so stay tuned for that!</p><p><strong>ONE MORE THING</strong><br/>
-With the announcement of theDell X also comes the announcement of a new Head of Customer Support. Please welcome <strong>April Fulle</strong> to the theDell X team! Should you have any queries about theDell X, please feel free to direct them to April. She has been trained to respond to customer support queries instantly. The best way to reach April is through the Victor Tran Discord server; you can join that here: <a href="https://discord.vicr123.com">Discord</a></p><p><strong>RELEASE DATE</strong><br/>
-As of right now, theDell X does not have a release date, as we need to iron out some bugs. Stay tuned to find out when theDell X will be released!</p><p>We&#x27;d be happy to hear what you think!<br/>
-<!-- -->-<!-- --> Victor and April</p><img src="/blogAssets/thedellx.png" width="100%" style="border:1px solid var(--ifm-toc-border-color)"/>]]></content:encoded>
+            <content:encoded><![CDATA[<img loading="lazy" src="/blogAssets/thedellx-logo.png" width="100%" style="border-radius:10px" class="img_ev3q"><p><strong>EDIT: April Fools!</strong></p><p>Hey folks,</p><p>I know most of you have been looking forward to theDesk. I also know most of you have fond memories of theShell. I am happy to announce that I've been able to merge the codebases of theDesk and theShell into one cohesive desktop environment. Say hello to <strong>theDell X</strong>.</p><p><strong>DUO EVERYTHING</strong><br>
+Why have one bar when you can have the power of both the bar from theShell and the bar from theDesk? With both bars at your disposal, you'll never have to move your mouse more than half your screen height vertically to get to any system actions.</p><p><strong>BONKERS NO MORE</strong><br>
+If theShell or theDesk crashes, you won't be kicked to the Bonkers screen any more! Simply keep using the half of the desktop that is currently running. Stability is unparalleled when you have theDell X running. It's as if you're using just theDesk or just theShell, except it's random each time!</p><p><strong>IMPORTANT NOTE</strong><br>
+NOTE: Unfortunately, with the codebase merge, I've had to drop support for non-Dell devices. I'll be working hard to get support back in, so stay tuned for that!</p><p><strong>ONE MORE THING</strong><br>
+With the announcement of theDell X also comes the announcement of a new Head of Customer Support. Please welcome <strong>April Fulle</strong> to the theDell X team! Should you have any queries about theDell X, please feel free to direct them to April. She has been trained to respond to customer support queries instantly. The best way to reach April is through the Victor Tran Discord server; you can join that here: <a href="https://discord.vicr123.com" target="_blank" rel="noopener noreferrer">Discord</a></p><p><strong>RELEASE DATE</strong><br>
+As of right now, theDell X does not have a release date, as we need to iron out some bugs. Stay tuned to find out when theDell X will be released!</p><p>We'd be happy to hear what you think!<br>
+<!-- -->-<!-- --> Victor and April</p><img loading="lazy" src="/blogAssets/thedellx.png" width="100%" style="border:1px solid var(--ifm-toc-border-color)" class="img_ev3q">]]></content:encoded>
+            <category>theshell</category>
+            <category>thedesk</category>
         </item>
         <item>
             <title><![CDATA[New Website]]></title>
@@ -28,72 +31,81 @@ As of right now, theDell X does not have a release date, as we need to iron out 
             <guid>/2021/02/11/new-site</guid>
             <pubDate>Thu, 11 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Hey everyone,]]></description>
-            <content:encoded><![CDATA[<p>Hey everyone,</p><p>I&#x27;ve launched a new website.</p><p>The new website is built on Docusaurus v2, and therefore the codebase is much more maintainable.</p><p>It&#x27;s not quite done yet, and I&#x27;ll be updating it in the future to add more stuff. As such, some stuff from the old website may still be missing. I&#x27;ve set up the old website on <a href="https://old.vicr123.com/">https://old.vicr123.com/</a> just in case you need anything that used to be there.</p><p>Thanks,<br/>
+            <content:encoded><![CDATA[<p>Hey everyone,</p><p>I've launched a new website.</p><p>The new website is built on Docusaurus v2, and therefore the codebase is much more maintainable.</p><p>It's not quite done yet, and I'll be updating it in the future to add more stuff. As such, some stuff from the old website may still be missing. I've set up the old website on <a href="https://old.vicr123.com/" target="_blank" rel="noopener noreferrer">https://old.vicr123.com/</a> just in case you need anything that used to be there.</p><p>Thanks,<br>
 Victor :)</p>]]></content:encoded>
+            <category>miscellaneous</category>
         </item>
         <item>
             <title><![CDATA[The New Victor Tran look]]></title>
             <link>https://vicr123.com/blog/2019/01/07/the-new-victor-tran-look</link>
             <guid>/2019/01/07/the-new-victor-tran-look</guid>
-            <pubDate>Sun, 06 Jan 2019 17:25:00 GMT</pubDate>
+            <pubDate>Mon, 07 Jan 2019 03:25:00 GMT</pubDate>
             <description><![CDATA[Hey everyone,]]></description>
-            <content:encoded><![CDATA[<p>Hey everyone,</p><p>As of today, I am proud to announce that new icons are now being rolled out.</p><img src="/blogAssets/newicons2019.png" width="100%"/><p>Each icon has been crafted around one base icon that gives each icon uniqueness, yet at the same time allow each icon to work together, forming the complete brand.</p><p>Watch a video showcasing all the new icons and icon system:</p><iframe width="100%" height="500" src="https://www.youtube.com/embed/VG-QdfmdxcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><p>These app icons should be rolling out to Blueprint users within the next few weeks, and will be rolling out to the general public on the next update of the app.</p><p>Thanks,<br/>
+            <content:encoded><![CDATA[<p>Hey everyone,</p><p>As of today, I am proud to announce that new icons are now being rolled out.</p><img loading="lazy" src="/blogAssets/newicons2019.png" width="100%" class="img_ev3q"><p>Each icon has been crafted around one base icon that gives each icon uniqueness, yet at the same time allow each icon to work together, forming the complete brand.</p><p>Watch a video showcasing all the new icons and icon system:</p><iframe width="100%" height="500" src="https://www.youtube.com/embed/VG-QdfmdxcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><p>These app icons should be rolling out to Blueprint users within the next few weeks, and will be rolling out to the general public on the next update of the app.</p><p>Thanks,<br>
 Victor :)</p>]]></content:encoded>
+            <category>brand</category>
         </item>
         <item>
             <title><![CDATA[theBeat 2.0]]></title>
             <link>https://vicr123.com/blog/2018/11/28/thebeat-2.0</link>
             <guid>/2018/11/28/thebeat-2.0</guid>
-            <pubDate>Wed, 28 Nov 2018 06:00:00 GMT</pubDate>
+            <pubDate>Wed, 28 Nov 2018 17:00:00 GMT</pubDate>
             <description><![CDATA[Hey everyone,]]></description>
-            <content:encoded><![CDATA[<p>Hey everyone,</p><p>theBeat 2.0 is now available! This release of theBeat comes with many new features, including</p><ul><li>Artist and Album view</li><li>New animations when switching between panes</li><li>Better Playlist management</li><li>Improved Media Listing</li><li>Album Art support</li><li>New buttons to automatically add all visible music to the playlist</li><li>New Visualisation called Bars</li></ul><p>This release also fixes a few bugs:</p><ul><li>The MPRIS PropertyChanged D-Bus event will only be sent when properties are changed so KDE Connect won&#x27;t cause your phone to heat up any more</li></ul><p>CD Playback is almost ready! We expect to have CD playback in the next version. Stay tuned for that!</p><p>You can see install instructions for theBeat <a href="/thebeat/download.html">here.</a> If you&#x27;re using Arch Linux, it&#x27;s available as <code>thebeat</code> on the AUR and on my repository.</p><p>As always, if you happen to find a bug, please <a href="https://github.com/vicr123/thebeat/issues">file a bug report</a> on GitHub.</p><p>Thanks,<br/>
+            <content:encoded><![CDATA[<p>Hey everyone,</p><p>theBeat 2.0 is now available! This release of theBeat comes with many new features, including</p><ul><li>Artist and Album view</li><li>New animations when switching between panes</li><li>Better Playlist management</li><li>Improved Media Listing</li><li>Album Art support</li><li>New buttons to automatically add all visible music to the playlist</li><li>New Visualisation called Bars</li></ul><p>This release also fixes a few bugs:</p><ul><li>The MPRIS PropertyChanged D-Bus event will only be sent when properties are changed so KDE Connect won't cause your phone to heat up any more</li></ul><p>CD Playback is almost ready! We expect to have CD playback in the next version. Stay tuned for that!</p><p>You can see install instructions for theBeat <a href="/thebeat/download.html">here.</a> If you're using Arch Linux, it's available as <code>thebeat</code> on the AUR and on my repository.</p><p>As always, if you happen to find a bug, please <a href="https://github.com/vicr123/thebeat/issues" target="_blank" rel="noopener noreferrer">file a bug report</a> on GitHub.</p><p>Thanks,<br>
 Victor :)</p>]]></content:encoded>
+            <category>thebeat</category>
         </item>
         <item>
             <title><![CDATA[theSlate Public Preview]]></title>
             <link>https://vicr123.com/blog/2018/08/06/theslate-public-preview</link>
             <guid>/2018/08/06/theslate-public-preview</guid>
-            <pubDate>Mon, 06 Aug 2018 12:00:00 GMT</pubDate>
+            <pubDate>Mon, 06 Aug 2018 22:00:00 GMT</pubDate>
             <description><![CDATA[Hey everyone,]]></description>
-            <content:encoded><![CDATA[<p>Hey everyone,</p><p>I&#x27;m happy to announce that theSlate is now officially available for public preview on Windows, macOS and Linux!</p><p>A few things to note before you go ahead and download theSlate:</p><ul><li>This is a public preview. Development is currently pretty fast so if you want the latest version of theSlate, you should come back and grab it every so often :)</li><li>Most of theSlate is untested. Features may disappear, break or contain critical bugs.</li></ul><p>As always, if you happen to find a bug, please <a href="https://github.com/vicr123/theslate/issues">file a bug report</a> on GitHub.</p><p>Thanks,<br/>
+            <content:encoded><![CDATA[<p>Hey everyone,</p><p>I'm happy to announce that theSlate is now officially available for public preview on Windows, macOS and Linux!</p><p>A few things to note before you go ahead and download theSlate:</p><ul><li>This is a public preview. Development is currently pretty fast so if you want the latest version of theSlate, you should come back and grab it every so often :)</li><li>Most of theSlate is untested. Features may disappear, break or contain critical bugs.</li></ul><p>As always, if you happen to find a bug, please <a href="https://github.com/vicr123/theslate/issues" target="_blank" rel="noopener noreferrer">file a bug report</a> on GitHub.</p><p>Thanks,<br>
 Victor :)</p>]]></content:encoded>
+            <category>theslate</category>
         </item>
         <item>
             <title><![CDATA[tsscreenlock 2.3]]></title>
             <link>https://vicr123.com/blog/2018/06/06/tsscreenlock-2.3</link>
             <guid>/2018/06/06/tsscreenlock-2.3</guid>
-            <pubDate>Wed, 06 Jun 2018 12:00:00 GMT</pubDate>
+            <pubDate>Wed, 06 Jun 2018 22:00:00 GMT</pubDate>
             <description><![CDATA[Hey everyone,]]></description>
-            <content:encoded><![CDATA[<p>Hey everyone,</p><p>The screen locker for theShell, tsscreenlock, has received an update to version 2.3. Here&#x27;s what&#x27;s new:</p><ul><li>Screen Locker will now work properly when the screen configuration changes</li><li>The login screen has received a redesign, and this authentication interface will be slowly rolled out to the* apps</li><li>Mouse passwords are now supported</li></ul><p>As always, if you happen to find a bug, please <a href="https://github.com/vicr123/tsscreenlock/issues">file a bug report</a> on GitHub.</p><p>Thanks,<br/>
+            <content:encoded><![CDATA[<p>Hey everyone,</p><p>The screen locker for theShell, tsscreenlock, has received an update to version 2.3. Here's what's new:</p><ul><li>Screen Locker will now work properly when the screen configuration changes</li><li>The login screen has received a redesign, and this authentication interface will be slowly rolled out to the* apps</li><li>Mouse passwords are now supported</li></ul><p>As always, if you happen to find a bug, please <a href="https://github.com/vicr123/tsscreenlock/issues" target="_blank" rel="noopener noreferrer">file a bug report</a> on GitHub.</p><p>Thanks,<br>
 Victor :)</p>]]></content:encoded>
+            <category>miscellaneous</category>
         </item>
         <item>
             <title><![CDATA[theSafe]]></title>
             <link>https://vicr123.com/blog/2018/03/16/thesafe</link>
             <guid>/2018/03/16/thesafe</guid>
-            <pubDate>Fri, 16 Mar 2018 12:20:00 GMT</pubDate>
+            <pubDate>Fri, 16 Mar 2018 23:20:00 GMT</pubDate>
             <description><![CDATA[Hey everyone,]]></description>
-            <content:encoded><![CDATA[<p>Hey everyone,</p><p>I&#x27;ve created a new backup tool called theSafe.<!-- -->
-It uses the <code>bup</code> program to actually perform the backups, and will run silently in the background.</p><p>Configuring and monitoring theSafe is easy with the configuration tool being made to be simple to use.</p><p><img src="/blogAssets/thesafe.png" alt="theSafe Configuration"/></p><p>You can get the source code on <a href="https://github.com/vicr123/theSafe">GitHub</a>.</p><p>As always, theSafe is available in the AUR and in my custom repository as a prebuilt binary package for those of you using Arch Linux (or a derivative)</p><p>Thanks,<br/>
+            <content:encoded><![CDATA[<p>Hey everyone,</p><p>I've created a new backup tool called theSafe.<!-- -->
+It uses the <code>bup</code> program to actually perform the backups, and will run silently in the background.</p><p>Configuring and monitoring theSafe is easy with the configuration tool being made to be simple to use.</p><p><img loading="lazy" alt="theSafe Configuration" src="/assets/images/thesafe-78eb500323845b038d45dac67b4c5410.png" width="800" height="579" class="img_ev3q"></p><p>You can get the source code on <a href="https://github.com/vicr123/theSafe" target="_blank" rel="noopener noreferrer">GitHub</a>.</p><p>As always, theSafe is available in the AUR and in my custom repository as a prebuilt binary package for those of you using Arch Linux (or a derivative)</p><p>Thanks,<br>
 Victor :)</p>]]></content:encoded>
+            <category>thesafe</category>
         </item>
         <item>
             <title><![CDATA[Changes in theShell Blueprint]]></title>
             <link>https://vicr123.com/blog/2018/01/23/changes-in-theshell-blueprint</link>
             <guid>/2018/01/23/changes-in-theshell-blueprint</guid>
-            <pubDate>Tue, 23 Jan 2018 03:00:00 GMT</pubDate>
+            <pubDate>Tue, 23 Jan 2018 14:00:00 GMT</pubDate>
             <description><![CDATA[Hey everyone,]]></description>
-            <content:encoded><![CDATA[<p>Hey everyone,</p><p>I&#x27;ve made a couple of changes to theShell Blueprint that I&#x27;d like to share.</p><iframe style="width:100%;height:400px" src="https://www.youtube-nocookie.com/embed/84vp1o0bnxM" frameborder="0" allow="autoplay; encrypted-media"></iframe><p>Feel free to leave a comment on the video telling me what you think about these changes.</p><p>Thanks,<br/>
+            <content:encoded><![CDATA[<p>Hey everyone,</p><p>I've made a couple of changes to theShell Blueprint that I'd like to share.</p><iframe style="width:100%;height:400px" src="https://www.youtube-nocookie.com/embed/84vp1o0bnxM" frameborder="0" allow="autoplay; encrypted-media"></iframe><p>Feel free to leave a comment on the video telling me what you think about these changes.</p><p>Thanks,<br>
 Victor :)</p>]]></content:encoded>
+            <category>theshell</category>
+            <category>blueprint</category>
         </item>
         <item>
             <title><![CDATA[News]]></title>
             <link>https://vicr123.com/blog/2018/01/20/news</link>
             <guid>/2018/01/20/news</guid>
-            <pubDate>Sat, 20 Jan 2018 06:16:00 GMT</pubDate>
+            <pubDate>Sat, 20 Jan 2018 17:16:00 GMT</pubDate>
             <description><![CDATA[Hey everyone,]]></description>
-            <content:encoded><![CDATA[<p>Hey everyone,</p><p>From now on, any news relating to any one of my projects will be posted here.<!-- --> For example, items such as</p><ul><li>New projects</li><li>New project versions</li><li>Interesting updates</li></ul><p>will be posted under the posts section.</p><p>Thanks,<br/>
+            <content:encoded><![CDATA[<p>Hey everyone,</p><p>From now on, any news relating to any one of my projects will be posted here.<!-- --> For example, items such as</p><ul><li>New projects</li><li>New project versions</li><li>Interesting updates</li></ul><p>will be posted under the posts section.</p><p>Thanks,<br>
 Victor :)</p>]]></content:encoded>
+            <category>miscellaneous</category>
         </item>
     </channel>
 </rss>
