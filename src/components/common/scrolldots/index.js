@@ -60,7 +60,7 @@ function ScrollDotItem({children, index, setCurrentIndex, currentIndexChange, fa
     </div>;
 }
 
-function ScrollDots({children, fadeIn = true}) {
+function ScrollDots({children, fadeIn = false}) {
     let [currentIndex, setCurrentIndex] = useState(0);
     let [currentIndexChange, setCurrentIndexChange] = useState(-1);
 
