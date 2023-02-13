@@ -6,6 +6,7 @@ import ScrollDots from "../../../components/common/scrolldots";
 import Featurenotes from "../../../components/common/featurenotes";
 
 import SearchImage from "./search.png";
+import BurnImage from "./burn.png";
 
 function Page() {
     const buttons = [
@@ -40,7 +41,7 @@ function Page() {
                     <p>theBeat is blazingly fast at searching your library. By the time you finish typing your search query, theBeat has already found the track you were after.</p>
                     <p>(Coming in 4.0) Search is only two key presses away - activate search by pressing the SHIFT key twice. Search is not limited to tracks; type in any album, artist, or even an action like Repeat, and theBeat will do it for you instantly.</p>
                 </Featurenotes>,
-                <Featurenotes title={"Play and burn CDs"} image={SearchImage} imageAlt={"Burning in theBeat"} right={true}>
+                <Featurenotes title={"Play and burn CDs"} image={BurnImage} imageAlt={"Burning in theBeat"} right={true}>
                     <p>It's easy to play and burn CDs in theBeat. theBeat will even contact MusicBrainz in order to retrieve information about the CD you're playing.</p>
                     <p>And when it's time to burn, theBeat easily allows you to create a playlist with all the music that you want to burn and burn it all to a CD for you, in the format that you want.</p>
                 </Featurenotes>
