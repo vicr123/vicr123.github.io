@@ -1,0 +1,43 @@
+.scrollDotsRoot {
+    /*display: flex;*/
+    position: relative;
+    /*align-items: flex-start;*/
+    /*justify-content: center;*/
+}
+
+.scrollerPositioner {
+    position: sticky;
+    top: 100px;
+    height: 0px;
+}
+
+.scrollerContainer {
+    height: 300px;
+    width: 10px;
+
+    margin-left: calc(100% - 20px);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.scrollDot {
+    height: 40px;
+    width: 10px;
+    cursor: pointer;
+
+    border-color: var(--ifm-font-color-base);
+    border-right-width: 2px;
+    border-right-style: solid;
+}
+
+.scrollDotActive {
+    border-color: var(--ifm-color-primary);
+}
+
+.scrollDotItemAnchor {
+    position: relative;
+    top: -99px;
+}
