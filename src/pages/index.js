@@ -7,6 +7,7 @@ import styles from './styles.module.css';
 import Container from '../components/container';
 import Popover from '../components/popover';
 import Projects from '../js/projects';
+import BaseHero from "../components/common/hero/baseHero";
 
 const announcements = [
     {
@@ -66,10 +67,10 @@ function Home() {
             title="Home Page"
             description="Creator of Qt Utilities and applications.">
             <main>
-                <Container className={`${styles.mainContainer} ${styles.headContainer}`} style={{color: "white"}}>
+                <BaseHero className={`${styles.mainContainer} ${styles.headContainer}`} style={{color: "white"}}>
                     <h2>Hi, I'm</h2>
                     <h1 className="hero__title">{siteConfig.title}</h1>
-                </Container>
+                </BaseHero>
                 <Container className={styles.subContainer}>
                     I create Qt utilities and applications.
                 </Container>

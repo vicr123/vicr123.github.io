@@ -1,0 +1,29 @@
+.heroContainer {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.heroCard {
+    position: absolute;
+
+    height: 100%;
+    width: auto;
+    top: 0;
+}
+
+.heroCard0 {
+    left: 0;
+}
+
+.heroCard1 {
+    left: 70%;
+}
+
+.heroCard2 {
+    right: 0;
+}
+
+.heroItems {
+    position: relative;
+}

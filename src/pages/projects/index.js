@@ -1,17 +1,22 @@
 import React from 'react';
 import clsx from 'clsx';
-import Projects from '../js/projects';
+import Projects from '../../js/projects';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import Container from '../components/container';
-import styles from './styles.module.css';
-import Popover from '../components/popover';
+import Container from '../../components/container';
+import styles from '../styles.module.css';
+import Popover from '../../components/popover';
 
 function ProjectItem(props) {
     const imgUrl = useBaseUrl(props.imageUrl);
 
     let click = () => {
+        if (props.href) {
+            window.location = props.href;
+            return;
+        }
+
         Popover.mount(<Popover title={props.title}>
             {props.popover}
         </Popover>)

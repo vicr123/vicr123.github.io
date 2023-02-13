@@ -4,6 +4,7 @@ import styles from '../pages/styles.module.css';
 
 const features = [
     {
+        href: "/projects/thedesk",
         title: 'theDesk',
         imageUrl: 'img/thedesk.svg',
         featured: true,
@@ -33,6 +34,7 @@ const features = [
         </>
     },
     {
+        href: "/projects/contemporary",
         title: 'Contemporary',
         imageUrl: 'img/contemporary.svg',
         description: <>
@@ -51,6 +53,7 @@ const features = [
         </>
     },
     {
+        href: "/projects/thebeat",
         title: 'theBeat',
         imageUrl: 'img/thebeat.svg',
         featured: true,
