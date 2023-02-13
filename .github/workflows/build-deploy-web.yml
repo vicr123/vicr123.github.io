@@ -26,10 +26,9 @@ jobs:
         run: |
           npm ci
           npm run build
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-pages-artifact@v1
         with:
-          name: gh-pages
-          path: build
+          path: build/
   deploy:
     runs-on: ubuntu-latest
     needs: build
