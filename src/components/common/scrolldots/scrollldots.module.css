@@ -9,6 +9,7 @@
     position: sticky;
     top: 100px;
     height: 0px;
+    pointer-events: none;
 }
 
 .scrollerContainer {
@@ -27,6 +28,8 @@
     height: 40px;
     width: 10px;
     cursor: pointer;
+
+    pointer-events: auto;
 
     border-color: var(--ifm-font-color-base);
     border-right-width: 2px;
