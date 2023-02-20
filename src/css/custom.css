@@ -37,6 +37,8 @@
   --ifm-button-background-hover: rgb(127, 228, 255);
   --ifm-button-background-active: rgb(0, 133, 170);
   --ifm-button-color: black;
+  --ifm-font-family-base: "Contemporary";
+  --ifm-heading-font-weight: 400;
 }
 
 html[data-theme="dark"] {
@@ -71,13 +73,8 @@ html[data-theme="dark"] .markdown :not(.admonition-icon) > svg {
     filter: invert(1);
 }
 
-html, .button {
-    font-family: 'Contemporary';
-}
-
-h1, h2, h4, h5, h6 {
-    font-family: 'Contemporary';
-    font-weight: 400;
+.button {
+    font-family: var(--ifm-font-family-base);
 }
 
 h2 {
