@@ -11,6 +11,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Victor Tran',
+      hideOnScroll: true,
       logo: {
         alt: 'Victor Tran',
         src: 'img/logo.svg',
@@ -18,7 +19,31 @@ module.exports = {
       items: [
         {
           to: 'projects',
-          label: 'Projects'
+          label: 'Projects',
+          type: 'dropdown',
+          items: [
+            {
+              to: 'projects/thedesk',
+              icon: '/img/thedesk.svg',
+              label: "theDesk"
+            },
+            {
+              to: 'projects/thebeat',
+              icon: '/img/thebeat.svg',
+              label: "theBeat"
+            },
+            {
+              to: 'projects/theslate',
+              icon: '/img/theslate.svg',
+              label: "theSlate"
+            },
+            {
+              to: 'projects',
+              icon: '/img/viewall.svg',
+              label: "View All",
+              exactMatch: true
+            }
+          ]
         },
         {
           to: 'blog',
