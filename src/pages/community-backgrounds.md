@@ -2,7 +2,7 @@ import CommunityBackgroundViewer from "../components/communityBackgroundViewer";
 
 # Community Backgrounds
 
-The Community Backgrounds are a set of freely available pictures available for use as desktop backgrounds. theDesk and theShell use these backgrounds when the "Community Backgrounds" setting is used.
+The Community Backgrounds are a set of freely available pictures available for use as desktop backgrounds. theDesk uses these backgrounds when the "Community Backgrounds" setting is used.
 
 All community backgrounds are released under a permissive license, details of which can be viewed by clicking on the image.
 
