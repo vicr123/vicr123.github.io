@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-areas: "image"
+                         "caption";
+
+    border: 1px solid var(--ifm-toc-border-color);
+
+    margin-bottom: 18px;
+}
+
+.image {
+    grid-area: image;
+    display: flex;
+}
+
+.caption {
+    border-top: 1px solid var(--ifm-toc-border-color);
+    padding: 10px;
+    grid-area: caption;
+}

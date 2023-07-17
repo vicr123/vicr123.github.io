@@ -9,7 +9,7 @@ function LightboxImage({src, alt, className, style}) {
 
     return <>
         <img src={src} alt={alt} className={`${Styles.image} ${className}`} style={style} onClick={show} />
-        <div className={Styles.lightbox} style={{display: showing ? "inherit" : "none"}} onClick={hide}>
+        <div className={Styles.lightbox} style={{display: showing ? "flex" : "none"}} onClick={hide}>
             <img src={src} alt={alt} />
         </div>
     </>
