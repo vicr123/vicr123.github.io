@@ -37,12 +37,14 @@ Additionally, you may be using a third party that uses Victor Tran services, in 
 
 Your data is stored on servers in the United States of America, owned by [GalaxyGate](https://galaxygate.net/). We use [CloudFlare](https://cloudflare.com/) as a proxy to our servers as protection against malicious attacks. Other than storing your information there, we don't disclose any of it to anyone else.
 
+The CloudFlare privacy policy is available [here](https://www.cloudflare.com/privacypolicy/)
+
 ### Services where no data is stored on our servers
 
 For some services, data must be sent to Victor Tran services, but the data is not stored. Examples include:
 
-- theTroposphere contacts Victor Tran servers when you add a city, and also when retrieving your location so we can show city information.
-- last.fm integration in theBeat is proxied through CloudFlare servers. No data is saved in this interaction.
+- theTroposphere contacts Victor Tran servers when you add a city, and also when retrieving your location, so we can show city information.
+- last.fm integration in theBeat is proxied through CloudFlare servers. No data is saved on Victor Tran servers in this interaction.
 
 In these instances, your data is processed and then discarded immediately.
 
